@@ -37,6 +37,12 @@ body {
     background: red;
 }
 
+.fecha {
+    color: #4e4e4e;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
 /*HEADER*/
 #header {
     width: 85%;
@@ -138,7 +144,8 @@ body {
 label,
 input[type="text"],
 input[type="email"],
-input[type="password"]{
+input[type="password"],
+textarea {
     display: block;
     width: 95%;
     margin-top:2px;
@@ -147,9 +154,14 @@ input[type="password"]{
 
 input[type="text"],
 input[type="email"],
-input[type="password"]{
+input[type="password"],
+textarea {
     padding: 5px;
     margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
 }
 
 input[type="button"],
